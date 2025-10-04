@@ -9,5 +9,8 @@ elif 20 <= temp_c <= 30:
 else:
     status = "Hot"
 
+temp_f = (temp_c * 9/5) + 32
+
 print(f"Temperature: {temp_c}°C")
 print(f"Status: {status}")
+print(f"Temperature in Fahrenheit: {temp_f}°F")
